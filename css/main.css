@@ -67,35 +67,37 @@ nav .profile-link a {
 }
 
 /*estilos del main dentro del home*/
-main {
+.home-main {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
 	height: 100%;
 	background-image: url('../assets/img/Cover.png');
-	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
+	background-size: cover;
 }
-main .home-main-container {
-	text-align: center;
-	margin-top: 5.7rem;
-}
-main .home-main-container .home-main-tittle-container {
-	color: white;
-	letter-spacing: 10px;
-	font-size: 40px;
-	width: 50rem;
-	font-family: 'Roboto Mono', monospace;
-}
-main .home-main-container .home-main-button-container {
-	height: 50px;
-	background-color: #47cfac;
-	width: 110px;
-	margin: 100px auto;
+.home-main section {
 	display: grid;
-	align-items: center;
+	grid-column: 2;
+	justify-items: center;
+	height: 350px;
+	margin-top: 80px;
 }
-main .home-main-container .home-main-button-container a {
+.home-main-text {
+	font-family: 'Roboto mono', monospace;
+	font-size: 30px;
+	font-weight: 700px;
+	letter-spacing: 10px;
+	color: black;
+	text-align: center;
+	color: white;
+}
+.home-main-button {
+	width: 110px;
+	height: 50px;
+	background: #48cfad;
+	text-align: center;
+	font-weight: 700;
 	font-size: 18px;
-	font-weight: bold;
+	line-height: 50px;
 }
