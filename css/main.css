@@ -1,4 +1,8 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 body {
+	font-family: 'Roboto Mono', monospace;
 	margin: 0;
 	padding: 0;
 	position: fixed;
@@ -7,12 +11,12 @@ body {
 	right: 0;
 	left: 0;
 }
-
 a {
 	text-decoration: none;
 	display: inline;
 	color: black;
 }
+
 /* estilos del header */
 header {
 	width: 100%;
@@ -61,36 +65,37 @@ nav .profile-link a {
 	color: black;
 	border-bottom: 1px solid black;
 }
-/*terminan estilos de header*/
-/*estilos del main*/
+
+/*estilos del main dentro del home*/
 main {
 	height: 100%;
 	background-image: url('../assets/img/Cover.png');
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 }
-main .main-container {
+main .home-main-container {
 	text-align: center;
 	margin-top: 5.7rem;
-	font-family: monospace;
 }
-main .main-container .main-tittle-container {
+main .home-main-container .home-main-tittle-container {
 	color: white;
 	letter-spacing: 10px;
 	font-size: 40px;
 	width: 50rem;
+	font-family: 'Roboto Mono', monospace;
 }
-main .main-container .main-button-container {
-	height: 40px;
+main .home-main-container .home-main-button-container {
+	height: 50px;
 	background-color: #47cfac;
-	width: 100px;
+	width: 110px;
 	margin: 100px auto;
 	display: grid;
+	align-items: center;
 }
-main .main-container .main-button-container a {
-	font-size: 15px;
-	margin: auto;
+main .home-main-container .home-main-button-container a {
+	font-size: 18px;
 	font-weight: bold;
 }
