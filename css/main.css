@@ -73,6 +73,19 @@ nav .profile-link a {
 	border-bottom: 1px solid black;
 }
 
+/*estilos de footer*/
+footer {
+	width: 100%;
+	height: 80px;
+	background-color: #22272d;
+	border-top: 35px solid #47cfac;
+	text-align: center;
+}
+footer p {
+	color: white;
+	margin-top: 30px;
+}
+
 /*estilos del main dentro del home*/
 .home-main {
 	display: grid;
@@ -160,15 +173,45 @@ nav .profile-link a {
 	width: 100%;
 }
 
-/*estilos de footer*/
-footer {
+.blogpost-img-container {
+	padding: 0 50px 40px;
+
+}
+.blogpost-img-container img {
 	width: 100%;
-	height: 80px;
-	background-color: #22272d;
-	border-top: 35px solid #47cfac;
+}
+.blogpost-main-container {
+	padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+	border-bottom: 1px solid #cdd2da;
+	padding-bottom: 20px;
+}
+.blogpost-main-container article h1 {
+	font-size: 35px;
+}
+.contact-main-container {
+	width: 100%;
+	min-height: 250px;
+	background-color: #e6e9ed;
 	text-align: center;
+	padding-bottom: 50px;
 }
-footer p {
-	color: white;
-	margin-top: 30px;
+.contact-main-container div {
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
 }
+.contact-main-container div a {
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+	text-align: initial;
+	margin-top: 85px;
+}
+.contact-main-container img {
+	width: 100px;
+}
+
+/*estilos de perfil*/
